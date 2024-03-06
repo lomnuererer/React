@@ -23,8 +23,8 @@ function onNoteValueChange(event) {
       <div className="app-container">
         <h3>มาเหอะ</h3>
         <p>
-          <input 
-            type='text' 
+          <textarea 
+            rows="3"
             placeholder='บึนทึกความในใจ' 
             name='content'
             value={note.content}
